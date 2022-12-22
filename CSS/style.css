@@ -1,0 +1,223 @@
+body {
+    padding: 0 !important;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+section {
+    margin: 20px;
+}
+
+nav {
+    text-align: center;
+    justify-content: center !important;
+    display: inline-flex;
+}
+
+nav ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+.hero-img {
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+#aboutme {
+    box-shadow: 10px 10px 0px whitesmoke, -10px -10px 0px whitesmoke;
+}
+
+#aboutme-img {
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#aboutme-text {
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+#aboutme-text ul {
+    list-style: none;
+}
+
+#aboutme-text ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-text {
+    color: black;
+}
+
+#contactme p {
+    color: white;;
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.contact-form {
+	display: flex;
+	text-align: left;
+	margin: 0 auto;
+	color: white;
+}
+.contact-form label {
+	display: block;
+	margin-bottom: 9px;
+}
+
+.message {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.message textarea {
+	border-radius: 5px;
+	border: 0px;
+	height: 75%;
+}
+
+.contact-details {
+	flex: 1;
+}
+
+.contact-details input {
+	border-radius: 5px;
+	border: 0px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+    width: 100%;
+}
+
+.message button {
+	color: #1d3d5f;
+	border: 0;
+	border-radius: 5px;
+	background: lightblue;
+	width: 140px;
+	height: 40px;
+	margin-top: 40px;
+	margin-left: auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.message button:hover {
+	background: black;
+	color: white;
+	transition: 0.2s;
+}
+
+footer {
+	height: 90px;
+	background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media {
+	font-size: 200%;
+	width: auto;
+	margin-left: auto;
+}
+
+.social-media a i {
+	color: white;
+	transition: 0.2s;
+}
+
+.social-media a i:hover {
+	color: lightblue;
+	transition: 0.2s;
+}
+
+footer span {
+    color: white;
+    font-size: 20px;
+    align-items: flex-start;
+    padding-right: 20px;
+}
+
+footer a {
+    align-items: flex-end;
+}
+
+@media (max-width: 400px) {
+    .contact-details input {
+        width: 100%;
+    }
+    .message textarea {
+        height: 150px;
+    }
+    .hero-img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    #aboutme-img {
+        max-width: 200px;
+        max-height: 200px;
+        display: flex;
+        margin: 0 auto;
+    }    
+
+    #aboutme {
+        box-shadow:none
+    }
+}
+
+@media (min-width: 401px) and (max-width: 999px) {
+    .contact-details input {
+        width: 100%;
+    }
+    .message textarea {
+        height: 150px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 580px) {
+    #aboutme {
+        box-shadow: none;
+    }
+}
