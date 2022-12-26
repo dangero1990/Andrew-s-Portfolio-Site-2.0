@@ -81,6 +81,10 @@ h1, h2 {
     color: lightblue;
 }
 
+.card {
+    margin-bottom: 5px !important;
+}
+
 .card-text {
     color: black;
 }
@@ -177,7 +181,6 @@ footer span {
     color: white;
     font-size: 20px;
     align-items: flex-start;
-    padding-right: 20px;
 }
 
 footer a {
@@ -185,6 +188,10 @@ footer a {
 }
 
 @media (max-width: 400px) {
+    footer span {
+        font-size: 17px;
+    }
+    
     .contact-details input {
         width: 100%;
     }
