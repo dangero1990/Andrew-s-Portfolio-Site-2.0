@@ -83,10 +83,15 @@ h1, h2 {
 
 .card {
     margin-bottom: 5px !important;
+    max-height: 450px;
 }
 
 .card-text {
     color: black;
+}
+
+.card img {
+    height: 250px;
 }
 
 #contactme p {
