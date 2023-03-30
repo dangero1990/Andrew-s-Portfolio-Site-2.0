@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+}
+
 body {
     padding: 0 !important;
     background: #0F2027;  /* fallback for old browsers */
